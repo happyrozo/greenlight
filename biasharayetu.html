@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Biashara yetu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="gallery/favicon.ico">
+    <link rel="stylesheet" href="glight.css">
+    <style>
+        body {
+            background-image: url('gallery/bgimage.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="frontlogo" src="icon/frontlogo.png">
+        <h1 id="top-heading">GREEN<span class="span1">LIGHT</span><span class="span2">.COM</span></h1>
+    </header>
+
+    <div id="navbar" class="navbar">
+        <a id="home" href="glightindex.html"><img class="homeicon" src="gallery/hm.png" alt="HOME"></a>
+        <div class="hideinsmallscreen">
+            <a href="bidhaazetu.html">BIDHAA ZETU</a>
+            <a href="hudumazetu.html">HUDUMA ZETU</a>
+            <a href="biasharayetu.html">BIASHARA YETU</a>
+            <a href="wasiliananasi.html">WASILIANA NASI</a>
+        </div>
+        <input type="search" placeholder="Search..">
+    </div>
+    <div id="navbar2" class="navbar2">
+        <div class="dropdownmenu">
+            <img id="menuico" src="icon/menu ico.png" alt="menu icon">
+            <div class="hideinsmallscreen">
+                <a id="home" href="glightindex.html">HOME</a>
+                <a href="bidhaazetu.html">BIDHAA ZETU</a>
+                <a href="hudumazetu.html">HUDUMA ZETU</a>
+                <a href="biasharayetu.html">BIASHARA YETU</a>
+                <a href="wasiliananasi.html">WASILIANA NASI</a>
+            </div>
+        </div>
+        <input type="search" placeholder="Search..">
+    </div>
+
+    <main>
+        <div class="btype">
+            <img class="bright" src="gallery/biasharagani.jpg" alt="Aina ya biashara"><br>
+            <h3>Tunafanya biashara gani?</h3>
+            <p>Greenlight grocery ni biashara inayojihusisha na kuuza viungo vya chakula, matunda, mbogamboga za majani , nafaka za aina mbali mbali n.k. Bidhaa zetu ni bora na nafuu kabisa. Tuna kila kitu kwa ajili ya kuufanya mlo wako uwe bora, na mtamu
+                kwa ajili ya afya ya mwili wako na kwa wale uwapendao pia.
+            </p>
+
+        </div>
+        <div class="bhistory">
+            <img class="bleft" src="gallery/historia.jpg" alt="Historia ya bishara">
+            <h3>Historia ya biashara yetu.</h3>
+            <p>Biashara yetu ni chipukizi. Ilianza mwaka 2020 mwezi wa saba. Biashara hii inahusisha kikundi cha wakulima wajasiriamali wanaozalisha mazao yao kwa njia za kisasa na zenye ubora</p>
+        </div><br>
+
+        <div class="bobjectives">
+            <img class="bright" src="gallery/lengo.jpg" alt="Dhumuni la biashara yetu">
+            <h3>Dhumuni la biashara yetu.</h3>
+            <p>Dhumuni la biashara yetu ni kuhakikisha Watanzania wote wanapata chakula bora kitakacho imarisha miili yao kwa ajili ya kuiwezesha kuwa nguvu kazi kwa ajili ya maendeleo yao binafsi na taifa kwa ujumla</p>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="socialmedias">
+            <a href="" alt=""><img class="socialicon" src="icon/twitter.png" alt="twitter icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/youtube.png" alt="youtube icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/instagram.png" alt="instagram icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/facebook.png" alt="facebook icon"></a>
+        </div>
+        <hr class="footer-hr">
+        <p id="copyright">&copy; 2020-2021 GreenLight.com || All rights reserved.</p>
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

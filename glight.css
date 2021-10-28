@@ -1,0 +1,607 @@
+    body {
+        margin: 0px;
+        text-align: center;
+        line-height: 2;
+        padding: 0;
+    }
+    
+    header {
+        background-color: white;
+        height: 100px;
+        width: 100%;
+    }
+    
+    #top-heading {
+        font-family: 'Merriweather', Serif;
+        text-decoration-style: double;
+        color: rgb(90, 192, 6);
+        margin: 0;
+        display: inline-block;
+    }
+    
+    #frontlogo {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+    
+    .span1 {
+        background-color: rgb(90, 192, 6);
+        color: white;
+    }
+    
+    .span2 {
+        color: rgb(226, 29, 29);
+    }
+    
+    #home {
+        border: none;
+    }
+    
+    .homeicon {
+        width: 50px;
+        height: 50px;
+        color: black;
+    }
+    
+    .frontimage {
+        image-rendering: optimizeQuality;
+        width: auto;
+        height: 420px;
+        border-radius: 0;
+        margin-top: 3em;
+    }
+    
+    hr {
+        border: 15px dotted green;
+        border-bottom: none;
+        width: 5%;
+    }
+    /* Style for the top navigational bar*/
+    
+    .navbar {
+        background-color: rgb(90, 192, 6);
+        overflow: hidden;
+        margin-left: 9em;
+        margin-right: 9em;
+        display: block;
+    }
+    
+    #navbar2 {
+        display: none;
+    }
+    /* Style the links inside the navigation bar */
+    
+    .navbar a {
+        float: left;
+        color: black;
+        padding-right: 2px;
+        text-decoration: none;
+        font-size: 17px;
+        margin: 0 4px;
+        border-right: solid black;
+        border-width: 1px;
+    }
+    
+    input[type=search] {
+        float: right;
+        background-image: url('gallery/search.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        border: solid black 1px;
+        margin: 8px 0.375rem;
+        width: 20%;
+        min-width: 60px;
+        padding: 0 12px;
+        height: 30px;
+    }
+    /* Change the color of link bars on hover */
+    
+    .navbar a:hover {
+        background-color: white;
+        color: green;
+        transition: background-color 0.5s;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 78%;
+    }
+    
+    .content {
+        padding-top: 16px;
+    }
+    
+    .sticky+.content {
+        padding-top: 60px;
+    }
+    /*Style for the front index page*/
+    
+    .container3,
+    .container2 {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 3em 3em 5em;
+        padding-left: 6%;
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+    }
+    
+    .foodtype {
+        margin: 20px;
+        align-items: center;
+        margin-right: 50px;
+        display: block;
+        height: 400px;
+        width: 300px;
+    }
+    
+    .heading3 {
+        background-color: rgb(90, 192, 6);
+        color: black;
+    }
+    
+    .tazamazaidi a {
+        text-decoration: none;
+        color: black;
+        padding: 8px;
+    }
+    
+    .tazamazaidi {
+        height: 30px;
+        background-color: rgb(90, 192, 6);
+    }
+    
+    .tazamazaidi a:hover {
+        background-color: white;
+        color: green;
+        transition: background-color 1s;
+    }
+    
+    h3 {
+        text-decoration: underline;
+    }
+    
+    form,
+    .talk-to-us {
+        text-align: left;
+        margin: 60px auto 60px auto;
+        padding: 10px 30px;
+        width: 50%;
+        background-color: aliceblue;
+    }
+    
+    .wasiliana-nasi-label {
+        width: 115.6px;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
+    input[type=text] {
+        padding: 12px 20px;
+        box-sizing: border-box;
+        transition: width 0.4s ease-in-out;
+        margin: 8px 0;
+    }
+    
+    input[type=text]:focus {
+        background-color: none;
+    }
+    
+    textarea {
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        background-color: white;
+        resize: none;
+        outline: none;
+    }
+    
+    select,
+    textarea,
+    input[type=text] {
+        border: 2px solid rgb(90, 192, 6);
+        width: 80%;
+    }
+    
+    select {
+        padding: 16px 20px;
+        background-color: white;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    
+    option {
+        background-color: rgb(90, 192, 6);
+    }
+    
+    input[type=submit] {
+        background-color: rgb(90, 192, 6);
+        border: 2px solid rgb(90, 192, 6);
+        color: black;
+        border-radius: 15px;
+        text-decoration: none;
+        margin-top: 8px;
+        cursor: pointer;
+        width: auto;
+        height: 40px;
+    }
+    
+    .wasiliananasi {
+        text-align: left;
+        width: 50%;
+        margin-left: 18em;
+        margin-bottom: 5em;
+    }
+    
+    .pricecontainer1,
+    .pricecontainer2 {
+        background-color: rgb(90, 192, 6);
+        height: 400px;
+        display: flex;
+        margin: 75px 149px 75px 149px;
+        padding: 30px 30px 30px 30px;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    .price {
+        background-color: black;
+        color: white;
+        margin: 30px 30px 30px 30px;
+        padding: 30px 30px 30px 30px;
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    .pricetable {
+        width: 350px;
+        height: 250px;
+        text-align: left;
+    }
+    
+    th {
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    .ourservice {
+        text-align: left;
+        width: 700px;
+        margin: auto auto;
+    }
+    
+    .btype,
+    .bobjectives,
+    .bhistory {
+        background-color: transparent;
+        margin: 3cm auto;
+        display: inline-block;
+        height: auto;
+        width: 50%;
+    }
+    
+    .bleft {
+        float: left;
+    }
+    
+    .bright {
+        float: right;
+    }
+    
+    .footer-hr {
+        width: 90%;
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+        margin-top: 1px;
+    }
+    /*Social media links*/
+    
+    .socialicon {
+        width: 20px;
+        height: 20px;
+        margin-left: 0.2cm;
+        margin-right: 0.2cm;
+    }
+    
+    #copyright {
+        margin: 0;
+    }
+    
+    .footer {
+        background-color: rgb(90, 192, 6);
+        margin: 2cm 10%;
+        text-align: center;
+        width: 80%;
+        height: 80px;
+        position: absolute;
+    }
+    
+    @media screen and (max-width: 600px) {
+        #top-heading {
+            font-family: 'Merriweather', Serif;
+            margin: 0;
+            display: inline;
+            font-size: 100%;
+        }
+        .navbar {
+            display: none;
+        }
+        #navbar2 {
+            background-color: rgb(90, 192, 6);
+            overflow: visible;
+            width: 100%;
+            display: block;
+            padding: 0;
+            text-align: left;
+        }
+        .dropdownmenu {
+            position: relative;
+            display: inline-block;
+        }
+        input[type=search] {
+            margin: 5px 1px 5px 1px;
+            width: 30%;
+            min-width: 60px;
+            height: 40px;
+        }
+        .hideinsmallscreen {
+            display: none;
+            position: absolute;
+            background-color: rgb(90, 192, 6);
+            min-width: 160px;
+        }
+        #menuico {
+            width: 40px;
+            height: 40px;
+        }
+        .hideinsmallscreen a:hover {
+            background-color: white;
+        }
+        .dropdownmenu:hover .hideinsmallscreen {
+            display: block;
+        }
+        .dropdownmenu:hover #menuico {
+            background-color: white;
+        }
+        .hideinsmallscreen a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            height: 15px;
+            overflow: hidden;
+            border-bottom: 1px solid black;
+        }
+        .frontimage {
+            width: 80%;
+            height: 300px;
+        }
+        .footer {
+            width: 100%;
+            margin: 70px auto 0 auto;
+            text-align: center;
+            height: auto;
+        }
+        .footer-hr {
+            width: 80%;
+        }
+        .pricecontainer1,
+        .pricecontainer2 {
+            background-color: transparent;
+            width: 100%;
+            margin: 1cm auto 1cm auto;
+            padding: 0;
+            display: block;
+            height: auto;
+        }
+        .price {
+            margin: 1px;
+            width: 75%;
+            height: auto;
+            overflow: visible;
+            display: inline-block;
+        }
+        .contacts {
+            text-align: initial;
+        }
+        .talk-to-us,
+        form {
+            text-align: left;
+            margin: 19px auto 19px auto;
+            padding: 10px 0px;
+            width: 80%;
+            background-color: aliceblue;
+        }
+        input[type=text] {
+            width: 60%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            margin: 8px 0;
+        }
+        input[type=text]:focus {
+            background-color: none;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 12px 20px;
+            resize: none;
+            outline: none;
+            margin-left: 40%;
+        }
+        input[type=submit] {
+            margin-left: 120px;
+        }
+        .wasiliana-nasi-label {
+            width: 115px;
+            display: inline-block;
+            margin-left: 5px;
+        }
+        select {
+            width: 60%;
+            padding: 12px 20px;
+            background-color: transparent;
+            margin: 8px 0;
+        }
+        .ourservice {
+            text-align: left;
+            width: 85%;
+            margin: 1cm auto;
+            padding-left: 5px;
+            background-color: aliceblue;
+        }
+        .huduma {
+            width: 70%;
+        }
+        #hudumahead {
+            margin: 0 auto;
+        }
+        .btype,
+        .bobjectives,
+        .bhistory {
+            background-color: white;
+            margin: 20px auto;
+            display: inline-block;
+            height: auto;
+            width: 80%;
+        }
+    }
+    
+    @media screen and (min-width:601px) and (max-width:1050px) {
+        .navbar {
+            overflow: hidden;
+            margin: 0 auto 2em;
+            display: block;
+            width: 90%;
+        }
+        .navbar a {
+            font-size: 80%;
+            border: none;
+        }
+        input[type=search] {
+            margin: 5px 1px 5px 1px;
+            width: 10%;
+            min-width: 60px;
+            height: 40px;
+        }
+        .content {
+            padding: 16px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            margin-top: 0;
+        }
+        .sticky+.content {
+            padding-top: 60px;
+        }
+        .container3,
+        .container2 {
+            width: 100%;
+            padding: 0;
+            margin: 2em 0;
+            height: auto;
+        }
+        .foodtype {
+            margin: 50px 10%;
+            height: auto;
+            width: 30%;
+        }
+        .pricecontainer1,
+        .pricecontainer2 {
+            background-color: transparent;
+            width: 90%;
+            margin: 1cm;
+            padding: 0;
+            display: block;
+            height: auto;
+            display: flex;
+        }
+        .price {
+            color: white;
+            margin: 10px;
+            width: 50%;
+            height: auto;
+            overflow: visible;
+            display: inline-block;
+            padding: 0;
+            text-align: center;
+        }
+        .pricetable {
+            width: 80%;
+            padding: 2px;
+            margin-left: 1cm;
+            text-align: center;
+        }
+        .ourservice {
+            text-align: left;
+            width: 85%;
+            margin: 1cm auto;
+            padding-left: 5px;
+            background-color: aliceblue;
+            line-height: normal;
+        }
+        #hudumahead {
+            margin: 0 auto;
+        }
+        .contacts {
+            text-align: initial;
+        }
+        form,
+        .talk-to-us {
+            text-align: left;
+            margin: 19px auto 19px auto;
+            padding: 10px 0px;
+            width: 80%;
+            background-color: aliceblue;
+        }
+        input[type=text] {
+            width: 60%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            margin: 8px 0;
+        }
+        input[type=text]:focus {
+            background-color: none;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 12px 20px;
+            background-color: white;
+            resize: none;
+            outline: none;
+            margin-left: 120px;
+        }
+        .wasiliana-nasi-label {
+            width: 115px;
+            display: inline-block;
+        }
+        select {
+            width: 60%;
+            padding: 12px 20px;
+            background-color: transparent;
+            margin: 8px 0;
+        }
+        option {
+            background-color: rgb(90, 192, 6);
+        }
+        .footer {
+            width: 80%;
+        }
+        input[type=submit] {
+            margin-left: 120px;
+        }
+    }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Huduma zetu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="glight.css">
+    <link rel="icon" href="gallery/favicon.ico">
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: url('gallery/bgimage.png');
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="frontlogo" src="icon/frontlogo.png">
+        <h1 id="top-heading">GREEN<span class="span1">LIGHT</span><span class="span2">.COM</span></h1>
+    </header>
+
+    <div id="navbar" class="navbar">
+        <a id="home" href="glightindex.html"><img class="homeicon" src="gallery/hm.png" alt="HOME"></a>
+        <div class="hideinsmallscreen">
+            <a href="bidhaazetu.html">BIDHAA ZETU</a>
+            <a href="hudumazetu.html">HUDUMA ZETU</a>
+            <a href="biasharayetu.html">BIASHARA YETU</a>
+            <a href="wasiliananasi.html">WASILIANA NASI</a>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search..">
+        </div>
+    </div>
+    <div id="navbar2" class="navbar2">
+        <div class="dropdownmenu">
+            <img id="menuico" src="icon/menu ico.png" alt="menu icon">
+            <div class="hideinsmallscreen">
+                <a href="glightindex.html">HOME</a>
+                <a href="bidhaazetu.html">BIDHAA ZETU</a>
+                <a href="hudumazetu.html">HUDUMA ZETU</a>
+                <a href="biasharayetu.html">BIASHARA YETU</a>
+                <a href="wasiliananasi.html">WASILIANA NASI</a>
+            </div>
+        </div>
+        <input type="search" placeholder="Search..">
+    </div>
+
+
+    <main>
+        <div class="ourservice">
+            <h3 class="huduma" id="hudumahead">MAHALI HUDUMA ZETU ZINAKOPATIKANA</h3>
+            <p class="huduma">Kwa sasa tunapatikan mitaa sita tu ilioko mkoa wa Dar es Salaam,Tanzania. Mitaa hiyo ni
+                <ul>
+                    <li>Mbagala</li>
+                    <li>Kijichi</li>
+                    <li>Keko</li>
+                    <li>Tabata</li>
+                    <li>Kigamboni</li>
+                    <li>Posta ya zamani</li>
+                </ul>
+                1.Mbagala
+                <br> Kwa wakazi wa mbagala tunapatikana karibu na ofisi za mtaa, mkabala na ngonyani rodi.<br>
+                <br>2.Kijichi
+                <br> Kijichi tunapatikana karibu na soko kuu la mtaa.<br>
+                <br> 3.Keko
+                <br> Kwa wakazi wa keko, tunapatikana keko magurumbasi karibu na uwanja wa mpira mchangani.<br>
+                <br>4.Tabata
+                <br> Kwa wakazi wa tabata, genge letu liko karibu na stendi ya daladala mkono wa kulia wa geti la kutokea.<br>
+                <br> 5.Kigamboni<br>
+                <br> Kigamboni ofisi yetu inapatikana karibu na kivuko cha feri mkaba na ukanda wa gaza wanakovua samaki haramu.<br>
+                <br>6.Posta ya zamani.<br>
+                <br>K wa wakazi wa posta ya zamani, tuko karibu na chuo cha IFM upande wa Jengo la makumbusho.<br>
+
+            </p>
+            <h3 class="huduma" id="hudumahead">JINSI HUDUMA ZINAVYOMFIKIA MTEJA.</h3>
+            <p class="huduma">Kwa sasa mteja anaweza kupata huduma zetu kwa kutembelea ofisi zetu husika kama ilivyoainishwa hapo juu.<br>
+                <br>Lakini pia tuko katika uboreshaji wa huduma yetu ili iweze kupatikana kwa njia ya mtandao na kumfikia mteja wetu mahali aliko.<br>
+                <br>Asanteni na karibuni wote greenlight.<br>
+                <br><b>NB:</b>Kwa maelezo na msaada zaidi tembelea ukurasa wetu <a href="wasiliananasi.html">WASILIANA NASI</a>.
+            </p>
+
+
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="socialmedias">
+            <a href="" alt=""><img class="socialicon" src="icon/twitter.png" alt="twitter icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/youtube.png" alt="youtube icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/instagram.png" alt="instagram icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/facebook.png" alt="facebook icon"></a>
+        </div>
+        <hr class="footer-hr">
+        <p id="copyright">&copy; 2020-2021 GreenLight.com || All rights reserved.</p>
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

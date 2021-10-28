@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wasiliana nasi</title>
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="glight.css">
+    <link rel="icon" href="gallery/favicon.ico">
+    <style>
+        body {
+            background-image: url('gallery/bgimage.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="frontlogo" src="icon/frontlogo.png">
+        <h1 id="top-heading">GREEN<span class="span1">LIGHT</span><span class="span2">.COM</span></h1>
+    </header>
+
+    <div id="navbar" class="navbar">
+        <a id="home" href="glightindex.html"><img class="homeicon" src="gallery/hm.png" alt="HOME"></a>
+        <div class="hideinsmallscreen">
+            <a href="bidhaazetu.html">BIDHAA ZETU</a>
+            <a href="hudumazetu.html">HUDUMA ZETU</a>
+            <a href="biasharayetu.html">BIASHARA YETU</a>
+            <a href="wasiliananasi.html">WASILIANA NASI</a>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search..">
+        </div>
+    </div>
+    <div id="navbar2" class="navbar2">
+        <div class="dropdownmenu">
+            <img id="menuico" src="icon/menu ico.png" alt="menu icon">
+            <div class="hideinsmallscreen">
+                <a href="glightindex.html">HOME</a>
+                <a href="bidhaazetu.html">BIDHAA ZETU</a>
+                <a href="hudumazetu.html">HUDUMA ZETU</a>
+                <a href="biasharayetu.html">BIASHARA YETU</a>
+                <a href="wasiliananasi.html">WASILIANA NASI</a>
+            </div>
+        </div>
+        <input type="search" placeholder="Search..">
+    </div>
+
+
+    <main>
+        <div class="talk-to-us">
+            <h2>Kwa mawasiliano zaidi unaweza kutupata kwa njia zifuatazo:</h2>
+            <p class="contacts"><b>Email:</b>&nbsp;&nbsp; lightgreen@gmail.com<br><br><b>Phone:</b>&nbsp;&nbsp;(+255) 22 243435456 </p>
+            <p class="contacts">Pia unaweza kutuandikia ujumbe wako mfupi kwa kujaza fomu apo chini.</p>
+        </div>
+
+        <form>
+
+            <label class="wasiliana-nasi-label" for="fname"><b>Jina la kwanza:</b>&nbsp;&nbsp;</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            <label class="wasiliana-nasi-label" for="lname"><b>Jina la mwisho:</b>&nbsp;&nbsp;</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+            <label class="wasiliana-nasi-label" for="mtaa"><b>Mtaa:</b>&nbsp;&nbsp;</label>
+            <select id="mtaa" name="mtaa">
+                  <option value="Mbagala">Mbagala</option>
+                  <option value="Kijichi">Kijichi</option>
+                  <option value="Keko">Keko</option>
+                  <option value="Tabata">Tabata</option>
+                  <option value="Kigamboni">Kigamboni</option>
+                  <option value="Posta">Posta</option>
+                </select>
+            <br>
+            <label class="wasiliana-nasi-label" for="ujumbe"><b>Ujumbe:</b>&nbsp;&nbsp;</label><br>
+            <textarea id="ujumbe" name="ujumbe" placeholder="Andika ujumbe wako hapa.." style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="Tuma ujumbe">
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="socialmedias">
+            <a href="" alt=""><img class="socialicon" src="icon/twitter.png" alt="twitter icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/youtube.png" alt="youtube icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/instagram.png" alt="instagram icon"></a>
+            <a href="" alt=""><img class="socialicon" src="icon/facebook.png" alt="facebook icon"></a>
+        </div>
+        <hr class="footer-hr">
+        <p id="copyright">&copy; 2020-2021 GreenLight.com || All rights reserved.</p>
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
