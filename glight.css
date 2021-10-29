@@ -327,7 +327,7 @@
         position: absolute;
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 650px) {
         #top-heading {
             font-family: 'Merriweather', Serif;
             margin: 0;
